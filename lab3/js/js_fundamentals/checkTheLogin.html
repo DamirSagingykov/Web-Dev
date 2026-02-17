@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let UserName = prompt("Who's There?");
+        if(UserName =="Admin"){
+            let psw=prompt("Type a password")
+            if(psw=="TheMaster"){
+                alert("Welcome");
+            }
+            else if(psw==='' || psw===null){
+                alert("canceled");
+            }
+            else{
+                alert("wrong password");
+            }
+        }
+        else if(UserName==='' || UserName===null){
+            alert("canceled");
+        }
+        else{
+            alert("who are u");
+        }
+    </script>
+</body>
+</html>
