@@ -1,0 +1,50 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 12px;
+    background: white;
+    transition: 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  }
+  
+  img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .meta {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    align-items: center;
+  }
+  
+  .price { font-weight: 800; }
+  .rating { font-weight: 700; }
+  .likes { font-weight: 700; }
+  
+  .actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #111;
+  }
+  
+  .like { border-color: #ff6b6b; }
+  .del  { border-color: #ff3b30; }
+  .link { border-color: #337ab7; }

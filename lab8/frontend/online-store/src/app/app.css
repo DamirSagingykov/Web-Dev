@@ -1,0 +1,27 @@
+h1 {
+    margin: 16px 0;
+  }
+  
+  .categories {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  
+  .cat-btn {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .cat-btn.active {
+    border-color: #337ab7;
+    box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.2);
+  }
+  
+  .hint {
+    opacity: 0.8;
+  }
